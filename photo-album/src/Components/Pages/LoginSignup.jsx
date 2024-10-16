@@ -19,12 +19,12 @@ const LoginSignup = () => {
             <img src={password_icon} alt="user"/>
             <input type="password" placeholder='Password'/>
           </div>
+          <div className="forgot-password">
+            <a href="#" onClick={(e) => e.preventDefault()}>Forgot Password?</a>
+          </div>
         </div>
         <div className="submit-container">
           <div className="submit">Log In</div>
-        </div>
-        <div className="forgot-password">
-          <a href="#" onClick={(e) => e.preventDefault()}>Forgot Password?</a>
         </div>
       </div>
       <h1 className="title">
